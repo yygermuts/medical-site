@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Contatos</title>
+</head>
+<body>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    padding: 0;
+    background-color:#409eceb2;
+    color: white;
+    
+}
+
+hr{
+    border: none;
+    border-top: 10px dotted white;
+    height: 3px;
+    width: 4%;
+}
+
+textarea{
+    resize: none;
+}
+
+h1, h2, h3{
+    color: white;
+    text-shadow: 
+        1px 1px 0 #0000001e, 
+        2px 2px 0 #0000001e, 
+        3px 3px 0 #0000001e; /* Efeito 3D com sombras */
+}
+
+    </style>
+
+
+<h2>Canal de Comunicação</h2>
+
+    <form action="mailto:yygermuts@gmail.com" method="post" enctype="text/plain">
+        <label for="">Nome</label><br>
+        <input type="text"name="first-name"><br><br>
+
+        <label for="">Sobrenome</label><br><br>
+        <input type="text"name="last-name"><br><br>
+
+        <label for="">Telefone</label><br><br>
+        <input type="tel"name="phone-number"><br><br>
+
+        <label for="">Melhor E-Mail</label><br><br>
+        <input type="email"name="e-mail"><br><br>
+
+        <label for="">Sua Mensagem</label><br><br>
+        <textarea cols="30" rows="10"></textarea><br><br>
+        <br>
+        <input class="send" type="submit" name="Enviar">
+    </form>
+    
+
+</body>
+</html>
