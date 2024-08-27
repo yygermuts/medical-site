@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Medical Center</title>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+        window.onload = function (){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };    
+    });
+        </script>
+
 </head>
 <body>
     <header>
@@ -19,6 +34,11 @@
             <div class="menu">
                 
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
                     <ul>
                         <li><a target="_blank" href="https://www.github.com/yygermuts">HOME</a></li>
                         <li><a target="_blank" href="https://www.github.com/yygermuts">SERVIÇOS</a></li>
@@ -256,15 +276,15 @@
                     <div class="wb-descript1">A medicina é uma ciência dedicada ao estudo, prevenção e tratamento de doenças, buscando melhorar a qualidade de vida. </div>
                     <div class="wb-descript2">Medicenter Clínica</div>
                 <div class="container3">
-                    <div class="wb-descript3">Rua da Responsividade, 1000</div>
-                    <div class="wb-descript3">+55 19 9898-9898</div>
+                    <div class="wb-descript3">Rua Farlane, 33</div>
+                    <div class="wb-descript3">+123 655 655</div>
                 </div>
                 <div class="container3">
-                    <div class="wb-descript4">São Paulo</div>
-                    <div class="wb-descript4">+55 19 9898-9898</div>
+                    <div class="wb-descript4">Kellor East</div>
+                    <div class="wb-descript4">+123 655 655</div>
                 </div>    
                 <div class="container3">
-                    <div class="wb-descript5">Rua da Responsividade 1000, Brasil</div>
+                    <div class="wb-descript5">Vic 3033, Australia</div>
                     <div class="wb-descript5"><a class="wb-descript5link" href="">yygermuts@gmail.com</a></div>
                 </div>
                 <div class="container4">
