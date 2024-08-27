@@ -487,6 +487,72 @@ div.container5{
 
 /*MEDIA QUERIES*/
 
+@media(max-width:320px){
+body{
+    margin: -25px;
+}
+
+header{
+    margin: 25px 0 16px 16px;
+}
+
+div.banner-headline h1{
+    font-size: 46px;
+}
+
+div.banner-headline h2{
+    font-size: 19px;
+}
+
+.banner-options{
+    padding: 0 27px;
+    margin-left: -2px;
+    margin-right: -13px;
+}
+
+div.widget{
+    margin: 0 14px;
+}
+
+div.widget-body2{
+    margin-left: 45px;
+}
+
+div.widget-body1{
+    margin-left: 45px;
+}
+
+div.widget-body {
+    margin-left: 26px;
+  justify-content: space-evenly;
+}
+
+.banner1, .banner2, .banner3{
+    margin-right: -14px;
+}
+
+div.widget-title, div.widget-title-bar {
+    align-items: center;
+    padding-left: 27px;
+}
+
+footer{
+    padding: 0 15px 100px 10px;
+    height: 2000px;
+}
+
+div.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container5 .fa-item3-content{
+    align-items: center;
+}
+
+}
+
 @media(max-width:390px) and (max-width:393px){
 
     div.menu{
@@ -739,6 +805,7 @@ div.widget-title{
     }
 
 }
+
 
 
 
