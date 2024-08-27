@@ -53,10 +53,41 @@ nav a{
     font-size: 15px;
 }
 
+nav ul{
+    display: none;
+    flex-direction: column;
+    margin-left: -15px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    
+}
+
 nav a:hover{
     color: white;
     background-color: #39aae1;
     border-radius: 60px;
+}
+
+.menuMobile{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 40px;
+    height: 40px;
+    background-color: none;
+    margin: 40px 0;
+}
+
+.mm-line{
+    height: 3px;
+    background-color: #339be0;
+
 }
 
 /* BANNER */
@@ -492,6 +523,12 @@ body{
     margin: -25px;
 }
 
+.menuMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 header{
     margin: 25px 0 16px 16px;
 }
@@ -805,7 +842,6 @@ div.widget-title{
     }
 
 }
-
 
 
 
